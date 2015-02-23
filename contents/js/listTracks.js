@@ -8,7 +8,8 @@ function listTracks(){
         $.get("/api-challenge/templates/trackList.jade", function(template){
             var html = jade.render(template, {items: unique});
             $('#list').html(html);
-            showTrack(unique[0].title)
+            console.log(unique);
+            showTrack(unique[0].title,unique[0].artist_id)
         })
 
 

@@ -1,6 +1,6 @@
 each song in items
     div.listElement
         h3
-            a(href='#', onClick='showTrack("'+ song.title +'")')= song.title
+            a(href='#', onClick='showTrack("'+ song.title + '","' + song.artist_id + '")')= song.title
         h5=song.artist_name
     br
