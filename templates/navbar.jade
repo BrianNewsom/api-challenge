@@ -1,2 +1,20 @@
-a#repos.button Hot Tracks
-a#myrepos.button Hot Artists
+nav(class="navbar navbar-default")
+    div(class="container-fluid")
+        div(class="navbar-header")
+            button(type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar")
+                span(class="sr-only")
+                    Toggle navigation
+                span(class="icon-bar")
+                span(class="icon-bar")
+                span(class="icon-bar")
+        a(class="navbar-brand",href="#") 
+            b Band Stalker
+        div(id="navbar", class="navbar-collapse collapse")
+            ul(class="nav navbar-nav")
+                li(class="active")
+                    a(href="/api-challenge/") Home
+                li
+                    a(href="#", onclick="listTracks()") Hot Tracks
+                li
+                    a(href="#", onclick="listArtists()") Hot Artists
+
