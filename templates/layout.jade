@@ -1,0 +1,37 @@
+doctype html
+html(lang='en')
+  head        
+    base(href='/api-challenge/')
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+    meta(name='viewport', content='width=device-width')     
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Raleway:400,700,400')
+    link(rel='stylesheet', href='css/normalize.css')
+    link(rel='stylesheet', href='css/skeleton.css')
+    link(rel='stylesheet', href='css/custom.css')
+
+  body
+
+    div.container
+        h1 Github Data
+        include navbar
+
+    div#content
+      div.container
+        block content
+
+    // third-part libraries
+    script(src="http://code.jquery.com/jquery.min.js")
+    script(src="js/jade.js")  
+    script(src="js/lodash.min.js")
+
+    // setup github client id/secret to access the API
+    script(src="js/echonest.js")
+
+    // our app
+    script(src="js/listTracks.js")
+    script(src="js/showTrack.js")
+
+    // more js files go here
+    
+    script(src="js/app.js")
