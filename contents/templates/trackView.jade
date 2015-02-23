@@ -1,10 +1,12 @@
-h3 Related News:
-each article in items
-    p
-        b=article.name
-    p
-        i='Added: ' + article.date_found
-    p
-        !{article.summary}
-    p
-        a(href=article.url) Read More...
+div.detail
+    h3 Related News:
+    each article in items
+        p
+            b=article.name
+        p
+            i='Added: ' + article.date_found
+        p
+            !{article.summary}
+        p
+            a(href=article.url) Read More...
+        hr

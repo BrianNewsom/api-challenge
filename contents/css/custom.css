@@ -18,3 +18,23 @@ img {
 	border: 1px #aaa solid;
 	padding: 2px;
 }
+
+
+.detail {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 10px;
+    border: 2px solid;
+    box-shadow: 20px;
+    background-color: rgba(235, 60, 60, 0.64);
+    overflow: hidden;
+}
+
+.listElement {
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid;
+    box-shadow: 20px;
+    background-color: rgba(198, 188, 188, 0.72);
+    overflow: hidden;
+}
