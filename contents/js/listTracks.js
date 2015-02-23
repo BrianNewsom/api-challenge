@@ -8,7 +8,7 @@ function listTracks(){
         $.get("/api-challenge/templates/trackList.jade", function(template){
             var html = jade.render(template, {items: unique});
             $('#list').html(html);
-            showTrack(unique[0])
+            showTrack(unique[0].title)
         })
 
 

@@ -1,2 +1,9 @@
+h3 Related News:
 each article in items
-    h5=article.name
+    p
+        b=article.name
+    p
+        i='Added: ' + article.date_found
+    p='Summary: ' + article.summary
+    p
+        a(href=article.url) Read More...

@@ -3,7 +3,7 @@ $( "#repos" ).on( "click", function( event ) {
 })
 
 $( "#myrepos" ).on( "click", function( event ) {
-    myRepos()
+    listArtists()
 })
 
 $( "#myevents" ).on( "click", function( event ) {
