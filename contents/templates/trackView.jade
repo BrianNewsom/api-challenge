@@ -4,6 +4,7 @@ each article in items
         b=article.name
     p
         i='Added: ' + article.date_found
-    p='Summary: ' + article.summary
+    p
+        !{article.summary}
     p
         a(href=article.url) Read More...
