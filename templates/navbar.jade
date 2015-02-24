@@ -14,7 +14,11 @@ nav(class="navbar navbar-default")
                 li
                     a(href="/api-challenge/") Home
                 li
-                    a(href="#", onclick="listTracks()") Hot Tracks
+                    a(href="#",id="hot-tracks") Hot Tracks
                 li
-                    a(href="#", onclick="listArtists()") Hot Artists
+                    a(href="#",id="hot-artists") Hot Artists
+            div(class="navbar-form navbar-right")
+                div(class="form-group")
+                    input(type="text",id="search-bar",class="form-control",placeholder="Search")
+                button(id="submit-btn", class="btn btn-default") Search
 
