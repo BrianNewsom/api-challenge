@@ -1,0 +1,6 @@
+each artist in items
+    div.listElement
+        h3
+            a(href='#', onClick='showTrack("'+ artist.name + '","' + artist.id +'")')= artist.name
+        h5='Hotness: ' + artist.hotttnesss
+    br

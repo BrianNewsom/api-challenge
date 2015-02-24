@@ -1,0 +1,13 @@
+div.detail
+    h3= 'News Related to "' + query + '"'
+    img(src=picURL)
+    each article in items
+        p
+            b=article.name
+        p
+            i='Added: ' + article.date_found
+        p
+            !{article.summary}
+        p
+            a(href=article.url) Read More...
+        hr
