@@ -32,7 +32,7 @@ img {
 
 .listElement {
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 2px;
     border: 2px solid;
     box-shadow: 20px;
     background-color: rgba(198, 188, 188, 0.72);
